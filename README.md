@@ -1,34 +1,32 @@
-# 🐍 Snake Game (JavaScript)
+# 🐍 Snake Game
 
-A classic **Snake Game** built using **HTML, CSS, and Vanilla JavaScript**.
-This project demonstrates core front-end development concepts such as DOM manipulation, event handling, game loops, and basic game logic.
-
----
-
-## 🎮 Live Gameplay Overview
-
-* Control the snake using **arrow keys**
-* Eat food to increase your score
-* Avoid colliding with walls or your own body
-* Includes sound effects for movement, food, and game over
+A classic Snake Game built with pure **HTML5**, **CSS3**, and **Vanilla JavaScript** — no frameworks, no dependencies. Just clean front-end fundamentals.
 
 ---
 
-## 🚀 Features
+## 🎮 Gameplay
 
-* Smooth keyboard-based controls
-* Real-time movement and collision detection
-* Score tracking
-* Sound effects for enhanced gameplay
-* Clean and responsive UI
+Use the **arrow keys** to steer the snake. Eat food to grow longer and rack up points. Avoid hitting the walls or doubling back on yourself — one mistake and it's game over.
+
+---
+
+## ✨ Features
+
+- **Smooth controls** — responsive arrow-key input with no input lag
+- **Collision detection** — wall and self-collision handled in real time
+- **Score tracking** — live score updates as you eat
+- **Sound effects** — distinct audio cues for movement, food, and game over
+- **Clean UI** — minimal, distraction-free layout
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **HTML5** – Game structure
-* **CSS3** – Styling and layout
-* **JavaScript (ES6)** – Game logic and interactions
+| Layer      | Technology         |
+|------------|--------------------|
+| Structure  | HTML5              |
+| Styling    | CSS3               |
+| Logic      | JavaScript (ES6+)  |
 
 ---
 
@@ -37,55 +35,44 @@ This project demonstrates core front-end development concepts such as DOM manipu
 ```
 SnakeGame/
 │
-├── index.html        # Main game file
+├── index.html          # Entry point
 ├── css/
-│   └── style.css     # Styling
+│   └── style.css       # Styles and layout
 ├── js/
-│   └── index.js      # Game logic
+│   └── index.js        # Game logic
 ├── img/
-│   └── bg.jpg        # Background image
-├── music/
-│   ├── food.mp3
-│   ├── move.mp3
-│   ├── gameover.mp3
-│   └── music.mp3
-└── .gitignore
+│   └── bg.jpg          # Background image
+└── music/
+    ├── food.mp3
+    ├── move.mp3
+    ├── gameover.mp3
+    └── music.mp3
 ```
 
 ---
 
-## ▶️ How to Run
+## ▶️ Getting Started
 
-1. Clone the repository:
+```bash
+git clone https://github.com/your-username/snake-game.git
+cd snake-game
+```
 
-   ```bash
-   git clone https://github.com/your-username/snake-game.git
-   ```
-2. Open `index.html` in any modern browser.
-3. Start playing!
-
----
-
-## 🎯 Learning Outcomes
-
-* Understanding of DOM manipulation
-* Handling keyboard events in JavaScript
-* Game loop logic using `requestAnimationFrame`
-* Managing assets like audio and images
+Then open `index.html` in any modern browser — no build step required.
 
 ---
 
-## 📌 Future Improvements
+## 💡 What This Covers
 
-* Mobile touch controls
-* High-score saving using localStorage
-* Difficulty levels
-* Pause / resume functionality
+Building this project touches on several core front-end concepts:
+
+- **DOM manipulation** — dynamically updating the game board each frame
+- **Keyboard event handling** — capturing and responding to user input
+- **Game loop** — smooth animation using `requestAnimationFrame`
+- **Asset management** — loading and triggering audio and image assets
 
 ---
 
 ## 📄 License
 
-This project is open-source and free to use for learning and personal projects.
-
----
+Open-source and free to use for learning and personal projects.
